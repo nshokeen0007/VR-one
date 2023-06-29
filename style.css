@@ -1,0 +1,58 @@
+* a:hover{
+    text-decoration: none;
+    transform:scale(1.20); 
+}
+
+body{
+    /* background-image: url(video/bg1.webp); */
+    background-size: contain; 
+    background-attachment: fixed;
+  }
+    .footer{list-style: none;}
+.orange{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+.hi:hover{
+    color: rgb(252, 252, 252);
+    background-color: red;
+     border-radius: 100%;
+     text-align: center;
+
+ text-shadow: 10px 20px 10px blue;
+}
+.isla:hover{
+    color: white;
+    background-color: green;
+     border-radius: 0% 50% 0% 50%;
+
+
+}
+.sikh:hover{
+    color: white;
+    background-color:blue;
+     border-radius: 50% 0% 50% 0%;
+}
+.chris:hover{
+    color:aliceblue;
+    background-color: red;
+    border-radius: 50% 50% 0% 0%}
+
+
+.trans:hover{
+    transform:scale(1.05); 
+    color: red;
+ 
+}
+
+* ul{
+    list-style: none;
+}
+

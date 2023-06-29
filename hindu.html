@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <style>
+          @media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+
+
+  @media (min-width: 768px) {
+    .order1{
+      display: top;
+    }
+  }
+
+
+
+      
+    </style>
+
+  </head>
+<body >
+  <nav class="navbar navbar-expand-md  ">
+    
+    <div class="container-fluid h5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto" href="index.html"><img src="video/partnership.gif" alt="" class="img-fluid">VR1</a>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hi " href="hindu.html"  >HINDUISM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link isla" href="islam.html">ISLAM</a>
+          </li>
+          <li class="nav-item sikh">
+            <a class="nav-link" href="sikh.html">SIKHISM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link chris" href="christan.html">CHRISTANITY</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning bg-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+      
+
+
+
+
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video autoplay loop  muted>
+        <source src="vdo/1.mp4" type="video/mp4" class="w-100" />
+      </video>   
+    </div>
+     <div class="carousel-item">
+      <video autoplay loop  muted>
+        <source src="vdo/2.mp4" type="video/mp4" class="w-100" />
+      </video>   
+    </div>
+    <div class="carousel-item">
+      <video autoplay loop  muted>
+        <source src="vdo/3.mp4" type="video/mp4" class="w-100" />
+        </video>
+    </div>
+    <div class="carousel-item">
+      <video autoplay loop  muted>
+        <source src="vdo/4.mp4" type="video/mp4" class="w-100" />
+        </video>
+    </div> 
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> 
+</div> 
+
+
+
+
+<!-- hindu symbols cards -->
+
+   <div class="container py-5 " style="margin: auto;">
+    <h2 class="h1 text-center mb-2 hindu"><span id="clas"> HINDUISM SYMBOLS</span></h2>
+  <div class="row  g-5 text-center" style="margin: auto;">
+    
+  <div class="col mb-3 mb-sm-0 card-1">
+    <div class="card  shadow trans rounded-5">
+      <div class="card-body d-flex flex-column justify-content-end">
+        <img src="image/sri.jpg" class="w-100">
+        <h5 class="card-title h1">Chakra</h5>
+       
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col mb-3 mb-sm-0  card-2">
+    <div class="card  shadow trans rounded-circle">
+      <div class="card-body d-flex flex-column justify-content-end">
+        <img src="image/aum.png" class="w-100">
+        <h5 class="card-title h1">Aum</h5>
+       
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col mb-3 mb-sm-0 card-3">
+    <div class="card  shadow trans rounded-5">
+      <div class="card-body d-flex flex-column justify-content-end">
+        <img src="image/swastik.png" class="w-100">
+        <h5 class="card-title h1">Swastik</h5>
+        
+      </div>
+    </div>
+  </div> 
+
+</div>
+</div> 
+
+<!-- map section start >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<div class="container-fluid ">
+  <h2 class="text-center holi"><strong>The Ancient Holy Places</strong></h2>
+<div class="row justify-content-center ">
+<div class="col-12 text-center map trans w-25">
+  <img src="image/holyplaces2.jpg" class="w-100">
+</div>
+
+</div></div>
+
+
+<!-- map section end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 mt-2 text-center holy">
+        <h2><strong>Holy Sites for the Four Main Denominations</strong></h2></div>
+
+        <div class="col-md-6 text-center mt-2 right1">
+
+          <p><strong>Vaishnavas</strong></p>
+  <ul>
+  <li>Mathura/Vrindavana</li>
+  <li>Dvaraka</li>
+  <li>BadrinathaPuri (Jagannatha Puri)</li>
+  <li>Tirupati</li>
+  <li>Ayodhya</li>
+  <li>Nathdwar</li>
+  <li>Udupi</li>
+  </ul>
+
+ </div>
+<div class="col-md-6 text-center mt-2 right2">
+
+<p><strong>Shaivites</strong></p>
+<ul>
+<li>Varanasi</li>
+<li>Kedarnatha</li>
+<li>Somnath</li>
+<li>Rameshvaram</li>
+<li>Chidambaram<br />
+Note: for more holy places dedicated<br> to Vishnu or Shiva, see .</li>
+</ul>
+</div>
+
+<div class="col-md-6 text-center right3">
+  <p><strong>Shaktas</strong></p>
+  <ul>
+  <li>Kanyakumari</li>
+  <li>Madurai</li>
+  <li>Vaishno Devi</li>
+  <li>Calcutta ( Kali Temple)<br />
+  Note: there are 51 principle Shakti<br> sites throughout India</li>
+  </ul>
+    
+</div>
+
+
+<div class="col-md-6 text-center right4">
+
+  <p><strong>Smartas</strong></p>
+  <ul>
+  <li>Puri</li>
+  <li>Rameshvaram</li>
+  <li>Dvaraka</li>
+  <li>Badrinatha<br />
+  Note: these correspond to the four <br>dhamas (most holy sites in India)</li>
+  </ul>
+    
+</div>
+
+      </div>
+    </div>
+
+  
+
+    <!-- ################# -->
+<div class="container-fluid">
+  <div class="row mt-2">
+    <div class="col-md-6 photo1 ">
+      <img src="image/hindu1.jpg" class="w-100 rounded-circle">
+      
+
+    </div>
+
+
+
+    <div class="col-md-6 mt-5 written1  ">
+      <p class="fs-5">
+    Hinduism is the world’s oldest religion, according to many scholars,
+    with roots and customs dating back more than 4,000 years. Today, with more than 1 billion followers,
+     Hinduism is the third-largest religion behind Christianity and Islam. 
+     Roughly 94 percent of the world’s Hindus live in India. Because the religion has no specific founder,
+      it’s difficult to trace its origins and history.
+     Hinduism is unique in that it’s not a single religion but a compilation of many traditions and philosophies.
+</p></div>
+
+
+<div class="col-md-6 mt-5 written2 order-md-1 order-2">
+  <p class="fs-5">
+Hinduism is the world’s oldest religion, according to many scholars,
+with roots and customs dating back more than 4,000 years. Today, with more than 1 billion followers,
+ Hinduism is the third-largest religion behind Christianity and Islam. 
+ Roughly 94 percent of the world’s Hindus live in India. Because the religion has no specific founder,
+  it’s difficult to trace its origins and history.
+ Hinduism is unique in that it’s not a single religion but a compilation of many traditions and philosophies.
+</p></div>
+
+<div class="col-md-6 order-md-2 order-1">
+  
+
+  <img src="image/hindu002.jpg" class="img-fluid rounded-2 photo2 order1">
+  
+
+
+
+
+
+  </div>
+</div>
+</div>
+
+<!-- nnnn -->
+
+
+<!-- crousel............... -->
+<div class="container text-center my-3 mt-5">
+  <div class="row mx-auto my-auto justify-content-center">
+  <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+  <div class="carousel-item active items">
+  <div class="col-md-3">
+  <div class="card trans">
+  <div class="card-img">
+    <img src="image/temple1.jpg" class="img-fluid" alt="badrinath temple">
+  </div>
+  <div class="card-img ">
+    <p>Badrinath Temple Uttarakhand</p>
+ 
+  
+  
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="carousel-item items">
+  <div class="col-md-3">
+  <div class="card trans">
+  <div class="card-img">
+    <img src="image/temple2.jpg" class="img-fluid" alt="Somnath Temple Gujarat">
+  </div>
+  <div class="card-img">
+    
+   <p> Somnath Temple Gujarat</p>
+  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/temple3.jpg" class="img-fluid" alt="Kedarnath Temple">
+                  </div>
+                  <div class="card-img">
+                   <p> Kedarnath Temple Uttarakhand</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/temple4.jpg" class="img-fluid" alt="vashino devi mandir">
+                                     
+                  </div>
+                  <div class="card-img"><p>Vaishno Devi Temple J&K</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/temple5.jpg" class="img-fluid" alt="amarnath temple">
+                  </div>
+                  <div class="card-img">
+                    <p>Amarnath Cave Temple J&K</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/temple6.jpg" class="img-fluid " alt="Kamakhya Temple">
+                  </div>
+                  <div class="card-img"><p>Kamakhya Temple Assam</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>		
+    </div>
+
+
+<!-- crousel end............ -->
+
+
+    <div class="container-fluid">
+      <div class="row gy-5 mt-2 ">
+        <div class="col-md-4 text-center last1 ">
+          <h4 class="text-danger"><strong>The Seven Ancient Holy Towns</strong></h4>
+          <ul>
+          <li>Ayodhya</li>
+          <li>Mathura</li>
+          <li>Haridwar</li>
+          <li>Varanasi</li>
+          <li>Kanchipuram</li>
+          <li>Dvaraka</li>
+          <li>Ujjain</li>
+          </ul>
+    
+        </div>
+        <div class="col-md-4 text-center last2">
+    
+          <h4 class="text-danger"><strong>The Four Holy Dhamas</strong></h4>
+          <ul>
+          <li>Puri (East)</li>
+          <li>Rameshvaram (South)</li>
+          <li>Dvaraka (West)</li>
+          <li>Badrinatha (North)</li>
+          </ul>
+          </div>
+    
+    
+    
+          <div class="col-md-4 text-center last3">
+            <h4 class="text-danger"><strong>The Four Maha Kumbha Mela Sites</strong></h4>
+            <ul>
+            <li>Prayaga ( Allahabad)</li>
+            <li>Haridwar</li>
+            <li>Ujjain</li>
+            <li>Nasik</li>
+            </ul>
+          
+            </div>
+          </div></div>
+          
+    
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="container-fluid  border-top border-dark  ">
+            <div class="row my-4">
+              <div class="col-md-4 col-sm-4 py-4">
+                <ul class="footer">
+                  <h3 class=" text-warning">Store</h5>
+                  <li>places</li>
+                  <li>Books</li>
+                  <li>GUIDES books</li>
+                  <li>templates</li>
+                  <li>Exclusives</li>
+          
+                </ul>
+              </div>
+          
+              <div class="col-md-4 col-sm-4 py-4">
+                <ul class="footer">
+                  <h3 class=" text-warning">Hinduism</h5>
+                  <li>Technology</li>
+                  <li>fe</li>
+                  <li>Concepts</li>
+                  <li>Esports</li>
+                  <li> Innovation</li>
+          
+                </ul>
+              </div>
+          
+          
+          
+            
+          
+              <div class="col-md-4 col-sm-4 py-4">
+                <ul class="footer border-start border-dark border-3 ">
+                  <h3 class=" text-warning">BE THE FIRST TO KNOW</h5>
+                  <li>Get special offers, exclusive product news, and event <br> info straight to your inbox.</li>
+                  <li class="my-1">EMAIL</li>
+          
+                  <label class="x">
+                    <input type="text" name="" placeholder="email" class="bg-warning rounded-2">
+                    <button class="btn btn-outline-danger lol">signup</button>
+                  </label>
+                  <li class="mt-1">
+                    <a href=""><img src="video/fb.jpg" alt="" ></a>
+                    <a href=""> <img src="video/twi.jpg" alt="" ></a>
+                    <a href=""> <img src="video/k.jpg" alt="" ></a>
+                    <a href=""> <img src="video/yt.jpg" alt="" ></a>
+                    <a href=""><img src="video/fb.jpg" alt="" ></a>
+                  </li>
+                </ul>
+              </div>
+          
+          
+            </div>
+          </div>
+          
+          <div class="container-fluid px-5 text-end">
+            <div class="row border-top border-dark">
+            <div class="col-10">Copyright 2023 © VR one. All Rights Reserved. Privacy Policy</div></div>
+          </div>
+          
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+          
+    <script>
+      let items = document.querySelectorAll('.items')
+    
+    items.forEach((el) => {
+    const minPerSlide = 4
+    let next = el.nextElementSibling
+    for (var i=1; i<minPerSlide; i++) {
+        if (!next) {
+    // wrap carousel by using first child
+    next = items[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+    }
+    })
+    
+    </script>
+
+    <script type="text/javascript">
+{
+  $(window).scroll(function()
+{ var nik=$(document).scrollTop(); 
+    console.log(nik);
+
+if((nik>440)&&(nik<680)){
+
+$('.hindu').addClass('animate__animated animate__swing  ');
+}
+if((nik>600)&&(nik<789)){
+$('.card-1').addClass('animate__animated animate__lightSpeedInRight animate__slow animate__delay-2s');
+$('.card-2').addClass('animate__animated animate__zoomInDown  ');
+$('.card-3').addClass('animate__animated animate__lightSpeedInLeft animate__slow animate__delay-2s ');
+}
+if((nik>900)&&(nik<1300)){
+$('.holi').addClass('animate__animated animate__bounceInUp animate__slow');
+$('.map').addClass('animate__animated animate__zoomInDown animate__slow animate__delay-2s');
+}
+if((nik>1280)&&(nik<1580)){
+  $('.holy').addClass('animate__animated animate__bounceInUp animate__slow');
+
+}
+if((nik>1300)&&(nik<1650)){
+$('.right1').addClass('animate__animated animate__lightSpeedInLeft animate__slow');
+$('.right2').addClass('animate__animated animate__lightSpeedInRight animate__slow');
+
+}
+if((nik>1500)&&(nik<1890)){
+$('.right3').addClass('animate__animated animate__lightSpeedInLeft animate__slow');
+$('.right4').addClass('animate__animated animate__lightSpeedInRight animate__slow');
+}
+if((nik>1850)&&(nik<2100)){
+$('.photo1').addClass('animate__animated animate__wobble animate__slow');
+$('.written1').addClass('animate__animated animate__fadeIn animate__slow animate__delay-2s');
+}
+if((nik>2100)&&(nik<2450)){
+$('.photo2').addClass('animate__animated animate__wobble animate__slow');
+$('.written2').addClass('animate__animated animate__fadeIn animate__slow animate__delay-2s');
+}
+if((nik>2650)&&(nik<2800)){
+  $('.last1').addClass('animate__animated animate__fadeInRight animate__slow');
+$('.last2').addClass('animate__animated animate__fadeInRight animate__slow animate__delay-2s');
+$('.last3').addClass('animate__animated animate__fadeInRight animate__slow animate__delay-4s');
+}
+
+
+})}
+
+
+
+    </script>
+</body>
+</html>

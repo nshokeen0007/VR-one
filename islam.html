@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" >
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+     <style>
+                @media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+      
+    </style>
+
+
+     </style>
+
+
+
+
+
+</head>
+<body style="background-color: rgba(135, 243, 135, 0.728);" >
+  <nav class="navbar navbar-expand-md ">
+    
+    <div class="container-fluid h5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto" href="index.html"><img src="video/partnership.gif" alt="" class="img-fluid">VR1</a>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hi " href="hindu.html"  >HINDUISM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link isla" href="islam.html">ISLAM</a>
+          </li>
+          <li class="nav-item sikh">
+            <a class="nav-link" href="sikh.html">SIKHISM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link chris" href="christan.html">CHRISTANITY</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning bg-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+
+
+<!-- crousel Start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video autoplay loop  muted>
+        <source src="vdo/m1.mp4" type="video/mp4" class="w-100" />
+      </video>   
+    </div>
+     <div class="carousel-item">
+      <video autoplay loop  muted>
+        <source src="vdo/m2.mp4" type="video/mp4" class="w-100" />
+      </video>   
+    </div>
+    <div class="carousel-item">
+      <video autoplay loop  muted>
+        <source src="vdo/m3.mp4" type="video/mp4" class="w-100" />
+        </video>
+    </div>
+    <div class="carousel-item">
+      <video autoplay loop  muted>
+        <source src="vdo/m4.mp4" type="video/mp4" class="w-100" />
+        </video>
+    </div> 
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> 
+</div> 
+
+
+<!-- crouse end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+<!-- symbols start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<div class="container py-5 " style="margin: auto;">
+  <h2 class="h1 text-center mb-2 text-success islam"> ISLAM SYMBOLS</h2>
+<div class="row  g-5 text-center" style="margin: auto;">
+  
+<div class="col mb-3 mb-sm-0 card-1">
+  <div class="card  shadow trans rounded-5">
+    <div class="card-body d-flex flex-column justify-content-end">
+      <img src="image/Allah.png" class="img-fluid">
+      <h5 class="card-title h1 ">Allah</h5>
+     
+    </div>
+  </div>
+</div>
+
+
+<div class="col mb-3 mb-sm-0 card-2">
+  <div class="card  shadow trans rounded-5">
+    <div class="card-body d-flex flex-column justify-content-end">
+      <img src="image/2islam.png" class="w-100">
+      <h5 class="card-title h1 ">Rub el Hizb</h5>
+     
+    </div>
+  </div>
+</div>
+
+
+<div class="col mb-3 mb-sm-0 card-3">
+  <div class="card   shadow trans rounded-5">
+    <div class="card-body d-flex flex-column justify-content-end">
+      <img src="image/star.png" class="img-fluid">
+      <h5 class="card-title h1 "> Star and Crescent</h5>
+      
+    </div>
+  </div>
+</div> 
+
+</div>
+</div> 
+
+
+
+<!-- symbols end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+<!-- map section start >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+<div class="container-fluid ">
+  <h2 class="text-center text-dark holi"><strong>Indian Muslims in INDIA<br>
+    ہندوستانی مسلمان</strong></h2>
+<div class="row justify-content-center ">
+<div class="col-12 text-center  trans w-50 map">
+  <img src="image/islampop.png" class="w-50">
+</div>
+
+</div></div>
+
+<!-- map section end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+<div class="container-fluid mt-5">
+  <h2 class="text-center text-light holy "><strong>MOST HOLIEST PLACES OF ISLAM</strong></h2>
+
+<div class="row my-5">
+<div class="col-md-6 right1"><img src="image/haram.png" class="img-fluid rounded-5"></div>
+<div class="col-md-6 right2"><h3 class=" fw-bold text-success">ḤARAM AL-ʾIMĀM ʿALĪ: THE MOSQUE OF ALĪ</h3>
+  <h5>For Shia Muslims, one of their holiest sites is the Ḥaram al-ʾImām ʿAlī, or the Imam Alī Holy Shrine (also known as the Mosque of Alī) in Najaf, Iraq. According to the "Illustrated Muslim Dictionary of the World," the tombs of biblical patriarchs Noah and Adam are located within the shrine along with Alī, which was first built in the 10th century by Persians. The reason the site is so holy for Shia Muslims is that it is the site where Imam Alī was killed in the seventh century.
+
+  </h5>
+  
+</div>
+</div>
+
+<div class="row my-5">
+<div class="col-md-6 right3 order-md-1 order-2"><h3 class=" fw-bold text-success ">THE AL-MASJID AL-ḤARĀM: THE GREAT MOSQUE OF MECCA</h3>
+<h5>Housing the holiest site in Islam, the Kaaba, is the Great Mosque of Mecca. Its Arabic name is al-Masjid al-Ḥarām, which means Holy Mosque or Haram Mosque (via Britannica). It is located in the heart of Mecca, Saudi Arabia, and hosts millions of visitors every year. In addition to the Kaaba, worshippers also visit the Zamzam Well in the mosque, as well as the ancient al-Ṣafā and al-Marwah hills surrounding it. As part of the Hajj, worshippers gather in the Great Mosque's courtyard and walk in a circle around the Kaaba as a ritual celebration called ṭawāf.
+</h5>
+
+</div>
+<div class="col-md-6 right4 order-md-2 order-1"><img src="image/thekaba.png" class="img-fluid rounded-5"></div>
+</div>
+
+<div class="row my-5">
+<div class="col-md-6 right5">
+  <img src="image/husayn.png" class="img-fluid rounded-5">
+  </div>
+<div class="col-md-6 right6"><h3 class=" fw-bold text-success">THE IMAM ḤUSAYN SHRINE IN KARBALA</h3>
+<h5>Another incredibly sacred and holy spot for Shia Muslims is the Imam Ḥusayn Shrine in Karbala, Iraq. According to Britannica, Ḥusayn was the son of Alī, and he did not recognize the authority of his father's posthumous successor, Muʿāwiyah, his son, Yazīd, or the Umayyad Caliphate. While marching to reclaim the Islamic caliphate in favor of Alī's line, Ḥusayn was killed at Karbala in 680 C.E., making him forever a martyr to Shia Muslims. He is considered the third Imam by Shia Islams, after his father Alī and older brother Ḥasan.
+</h5>  
+
+</div>
+
+
+
+<div class="row my-5">
+<div class="col-md-6 right7 order-md-1 order-2"><h3 class=" fw-bold text-success">AL-MASJID AN-NABAWI: THE PROPHET MUHAMMAD'S MOSQUE</h3>
+<h5>Besides the Kaaba in Mecca, Saudi Arabia, the second holiest place among all Muslims is the Prophet Muhammad's Mosque in Medina, Saudi Arabia. Per "The Oxford Dictionary of Islam," Muhammad's Mosque was the first mosque to be built in Islam, and it was Muhammad who built it. He and his family lived in the mosque when they first moved to Medina, and it was also a spiritual and religious center where he would lead prayers. His remains are buried in the mosque and have been there since he died in the seventh century.
+</h5>  
+
+</div>
+<div class="col-md-6 right8 order-md-2 order-1">  <img src="image/kabamasjid.png" class="img-fluid rounded-5">
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- crousel............... -->
+<div class="container text-center my-3 mt-5">
+  <div class="row mx-auto my-auto justify-content-center">
+  <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+  <div class="carousel-item active items">
+  <div class="col-md-3">
+  <div class="card trans">
+  <div class="card-img">
+    <img src="image/a7.png" class="img-fluid" alt="Mosque Al Sahlah">
+  </div>
+  <div class="card-img ">
+    <p>Mosque Al Sahlah</p>
+ 
+  
+  
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="carousel-item items">
+  <div class="col-md-3">
+  <div class="card trans">
+  <div class="card-img">
+    <img src="image/a6.png" class="img-fluid" alt="Shrine of Imam Ali">
+  </div>
+  <div class="card-img">
+    
+   <p>Shrine of Imam Ali</p>
+  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/a4.png" class="img-fluid" alt="Sultanahmet Mosque">
+                  </div>
+                  <div class="card-img">
+                   <p>Sultanahmet Mosque</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/a3.png" class="img-fluid" alt="Mevlana Museum">
+                                     
+                  </div>
+                  <div class="card-img"><p>Mevlana Museum</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/a22.png" class="img-fluid" alt="Al-Aqsa Mosque">
+                  </div>
+                  <div class="card-img">
+                    <p> Balıklıgöl (Pool of Abraham)</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item items">
+              <div class="col-md-3 rounded-circle">
+                <div class="card trans">
+                  <div class="card-img">
+                    <img src="image/a1.png" class="img-fluid " alt=" Al-Masjid an-Nabawi">
+                  </div>
+                  <div class="card-img"><p> Al-Masjid an-Nabawi</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>		
+    </div>
+
+
+<!-- crousel end............ -->
+
+
+
+<!-- footr>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+<div class="container-fluid  border-top border-dark  ">
+  <div class="row my-4">
+    <div class="col-md-4 col-sm-4 py-4">
+      <ul class="footer">
+        <h3 class="">Store</h5>
+        <li>places</li>
+        <li>Books</li>
+        <li>GUIDES books</li>
+        <li>templates</li>
+        <li>Exclusives</li>
+
+      </ul>
+    </div>
+
+    <div class="col-md-4 col-sm-4 py-4">
+      <ul class="footer">
+        <h3 class="">Islam</h5>
+        <li>Technology</li>
+        <li>fe</li>
+        <li>Concepts</li>
+        <li>Esports</li>
+        <li> Innovation</li>
+
+      </ul>
+    </div>
+
+
+
+  
+
+    <div class="col-md-4 col-sm-4 py-4">
+      <ul class="footer border-start border-dark border-3 ">
+        <h3 class="">BE THE FIRST TO KNOW</h5>
+        <li>Get special offers, exclusive product news, and event <br> info straight to your inbox.</li>
+        <li class="my-1">EMAIL</li>
+
+        <label class="x">
+          <input type="text" name="" placeholder="email" class=" rounded-2">
+          <button class="btn btn-outline-danger lol">signup</button>
+        </label>
+        <li class="mt-1">
+          <a href=""><img src="video/fb.jpg" alt="" ></a>
+          <a href=""> <img src="video/twi.jpg" alt="" ></a>
+          <a href=""> <img src="video/k.jpg" alt="" ></a>
+          <a href=""> <img src="video/yt.jpg" alt="" ></a>
+          <a href=""><img src="video/fb.jpg" alt="" ></a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="container-fluid px-5 text-end">
+  <div class="row border-top border-dark">
+  <div class="col-10">Copyright 2023 © VR one. All Rights Reserved. Privacy Policy</div></div>
+</div>
+
+<!-- footer end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" ></script>
+<script>
+  let items = document.querySelectorAll('.items')
+
+items.forEach((el) => {
+const minPerSlide = 4
+let next = el.nextElementSibling
+for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+// wrap carousel by using first child
+next = items[0]
+}
+let cloneChild = next.cloneNode(true)
+el.appendChild(cloneChild.children[0])
+next = next.nextElementSibling
+}
+})
+
+</script>   
+<script>
+  {
+  $(window).scroll(function()
+{ var nik=$(document).scrollTop(); 
+    console.log(nik);
+
+if((nik>440)&&(nik<680)){
+
+$('.islam').addClass('animate__animated animate__swing  ');
+}
+if((nik>600)&&(nik<789)){
+$('.card-1').addClass('animate__animated animate__lightSpeedInRight animate__slow animate__delay-2s');
+$('.card-2').addClass('animate__animated animate__zoomInDown  ');
+$('.card-3').addClass('animate__animated animate__lightSpeedInLeft animate__slow animate__delay-2s ');
+}
+if((nik>900)&&(nik<1300)){
+$('.holi').addClass('animate__animated animate__bounceInUp animate__slow');
+$('.map').addClass('animate__animated animate__zoomInDown animate__slow animate__delay-2s');
+}
+if((nik>1280)&&(nik<1650)){
+  $('.holy').addClass('animate__animated animate__bounceInUp animate__slow');
+}
+if((nik>1600)&&(nik<1850)){
+$('.right1').addClass('animate__animated animate__fadeInLeft animate__slow');
+$('.right2').addClass('animate__animated animate__fadeInRight animate__slow');
+
+}
+if((nik>1900)&&(nik<2200)){
+$('.right3').addClass('animate__animated animate__fadeInLeft animate__slow');
+$('.right4').addClass('animate__animated animate__fadeInRight animate__slow');
+}
+if((nik>2300)&&(nik<2650)){
+$('.right5').addClass('animate__animated animate__fadeInLeft animate__slow');
+$('.right6').addClass('animate__animated animate__fadeInRight animate__slow');
+}
+if((nik>2700)&&(nik<2950)){
+$('.right7').addClass('animate__animated animate__fadeInLeft animate__slow');
+$('.right8').addClass('animate__animated animate__fadeInRight animate__slow');
+}
+
+}
+  )}
+</script>
+</body>
+</html>
